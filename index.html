@@ -1,0 +1,44 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+
+      <br><br>
+
+      <h1>ML</h1>
+      <div id="webcam-sect">
+      <label>Webcam View - </label>
+      <div id="cam"></div>
+      </div>
+      <br><br>
+      <button id="snap-btn" onclick="snap()"><img id="snap-img" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/2x/external-photo-multimedia-tanah-basah-glyph-tanah-basah.png">Snap</button>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+
+      <p style="font-size: 22px;">Object :<span id="result-obj"></span>  </p>
+      <p style="font-size: 22px;">Accuracy :<span id="result-acc"></span>  </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
