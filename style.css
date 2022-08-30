@@ -39,12 +39,47 @@ body {
     width: 30px;
     transition-duration: 0.3s;
 }
-#webcam-sect{
+#webcam-sect {
     background-color: rgba(0, 0, 0, 0.226);
     width: 300px;
     height: 170px;
     border: none;
     border-radius: 12px;
-    align-items: center;
     text-align: center;
+    object-fit: scale-down;
 }
+#result {
+    width: 350px;
+    height: 350px;
+    object-fit: scale-down;
+}
+#capture {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    display: none;
+    background-color: transparent;
+    border-radius: 12px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(85, 85, 85, 0.616);
+    border-radius: 12px;
+    transition-duration: 0.3s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    transition-duration: 0.3s;
+  }
